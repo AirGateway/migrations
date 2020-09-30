@@ -133,7 +133,7 @@ func migrationFile() string {
 		if !ok {
 			break
 		}
-		if !strings.Contains(f.Function, "/go-pg/migrations") {
+		if !strings.Contains(f.Function, "/AirGateway/migrations") {
 			return f.File
 		}
 	}
