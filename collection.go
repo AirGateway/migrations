@@ -748,7 +748,7 @@ func createMigrationFile(filename string) error {
 var migrationTemplate = []byte(`package main
 
 import (
-	"github.com/go-pg/migrations"
+	"github.com/AirGateway/migrations"
 )
 
 func init() {

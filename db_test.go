@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/go-pg/migrations"
+	"github.com/AirGateway/migrations"
 
 	"github.com/AirGateway/pg"
 )

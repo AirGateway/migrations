@@ -1,4 +1,4 @@
-module github.com/go-pg/migrations
+module github.com/AirGateway/migrations
 
 go 1.11
 
