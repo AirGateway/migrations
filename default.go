@@ -6,6 +6,7 @@ func SetTableName(name string) {
 	DefaultCollection.SetTableName(name)
 }
 
+//
 func Version(db DB) (int64, error) {
 	return DefaultCollection.Version(db)
 }
