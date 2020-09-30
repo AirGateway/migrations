@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/go-pg/pg/v10"
-	"github.com/go-pg/pg/v10/orm"
+	"github.com/AirGateway/pg"
+	"github.com/AirGateway/pg/orm"
 )
 
 // DB is a common interface for pg.DB and pg.Tx types.

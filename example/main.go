@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/AirGateway/pg"
 	"github.com/go-pg/migrations"
-	"github.com/go-pg/pg/v10"
 )
 
 const usageText = `This program runs command on the db. Supported commands are:

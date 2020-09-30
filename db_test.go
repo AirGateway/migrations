@@ -6,7 +6,7 @@ import (
 
 	"github.com/go-pg/migrations"
 
-	"github.com/go-pg/pg/v10"
+	"github.com/AirGateway/pg"
 )
 
 func connectDB() *pg.DB {
